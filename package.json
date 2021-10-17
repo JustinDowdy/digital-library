@@ -1,0 +1,24 @@
+{
+  "name": "21.-mern",
+  "version": "1.0.0",
+  "description": "digital library where users can search for books and save them for future buy",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustinDowdy/digital-library.git"
+  },
+  "keywords": [
+    "\"mern\"",
+    "\"javascript\"",
+    "\"node\""
+  ],
+  "author": "Justin Dowdy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JustinDowdy/digital-library/issues"
+  },
+  "homepage": "https://github.com/JustinDowdy/digital-library#readme"
+}

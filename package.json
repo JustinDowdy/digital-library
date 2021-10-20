@@ -1,31 +1,24 @@
 {
-  "name": "googlebooks-app",
+  "name": "21.-mern",
   "version": "1.0.0",
-  "description": "",
-  "main": "server/server.js",
+  "description": "book search engine",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
-    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
-    "start:prod": "cd server && npm start",
-    "start:dev": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
-    "install": "cd server && npm i && cd ../client && npm i",
-    "heroku-postbuild": "cd client && npm run build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git@work.github.com:arosenkranz/googlebooks-app.git"
+    "url": "git+https://github.com/JustinDowdy/digital-library.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "mern"
+  ],
+  "author": "Justin Dowdy",
   "license": "ISC",
-  "dependencies": {
-    "@apollo/react-hooks": "^4.0.0",
-    "apollo-server-express": "^2.25.2",
-    "bcrypt": "^5.0.1",
-    "express": "^4.17.1",
-    "if-env": "^1.0.4",
-    "yarn": "^1.22.17"
+  "bugs": {
+    "url": "https://github.com/JustinDowdy/digital-library/issues"
   },
-  "devDependencies": {
-    "concurrently": "^5.2.0"
-  }
+  "homepage": "https://github.com/JustinDowdy/digital-library#readme"
 }

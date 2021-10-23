@@ -2,8 +2,9 @@
   "name": "21.-mern",
   "version": "1.0.0",
   "description": "book search engine",
-  "main": "server/server.js",
+  "main": "server.js",
   "dependencies": {
+    "express": "^4.17.1",
     "if-env": "^1.0.4",
     "yarn": "^1.22.17"
   },

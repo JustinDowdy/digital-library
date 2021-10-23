@@ -2,12 +2,15 @@
   "name": "21.-mern",
   "version": "1.0.0",
   "description": "book search engine",
-  "main": "server.js",
-  "dependencies": {},
+  "main": "server/server.js",
+  "dependencies": {
+    "if-env": "^1.0.4",
+    "yarn": "^1.22.17"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server/server.js"
   },
   "repository": {
     "type": "git",

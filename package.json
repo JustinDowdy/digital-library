@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "book search engine",
   "main": "server/server.js",
-  "homepage": "https://github.com/JustinDowdy/digital-library#readme",
+  "homepage": "https://git.heroku.com/hungry4books.git",
   "dependencies": {
     "apollo-server-express": "^3.4.0",
     "bcrypt": "^5.0.1",

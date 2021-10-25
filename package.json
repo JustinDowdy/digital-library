@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "description": "book search engine",
   "main": "server/server.js",
-  "homepage": "https://git.heroku.com/hungry4books.git",
+  "homepage": "https://github.com/JustinDowdy/digital-library#readme",
   "dependencies": {
+    "-": "0.0.1",
     "apollo-server-express": "^3.4.0",
     "bcrypt": "^5.0.1",
     "express": "^4.17.1",
+    "gh-pages": "^3.2.3",
     "graphql": "^15.6.1",
     "if-env": "^1.0.4",
     "mongoose": "^6.0.12",
+    "save-dev": "0.0.1-security",
     "yarn": "^1.22.17"
   },
   "devDependencies": {},
